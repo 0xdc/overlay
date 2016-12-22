@@ -1,0 +1,27 @@
+sys-apps/systemd curl importd gcrypt gnuefi lzma nat
+
+# firefox, et al
+dev-lang/python sqlite
+
+# chromium
+media-libs/libvpx svc
+dev-qt/qtwebkit icu
+dev-libs/libxml icu
+
+# deluge
+dev-libs/boost python
+net-libs/rb_libtorrent python
+
+# CIFS/Samba
+sys-libs/tevent python
+sys-libs/ntdb python
+sys-libs/tdb python
+
+# USB
+app-crypt/gnupg smartcard
+
+# Flowblade
+media-libs/mlt python
+
+# electron
+media-video/ffmpeg opus vpx
