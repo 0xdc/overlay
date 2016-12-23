@@ -26,3 +26,10 @@ media-libs/mlt python
 
 # electron
 media-video/ffmpeg opus vpx
+
+# blender
+media-gfx/blender colorio ffmpeg
+media-video/ffmpeg theora
+
+# quassel
+net-irc/quassel monolithic -server webkit
