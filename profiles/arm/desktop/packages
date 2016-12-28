@@ -1,0 +1,13 @@
+app-admin/sudo
+app-misc/tmux
+app-portage/eix
+app-portage/flaggie
+dev-lang/go
+dev-python/virtualenvwrapper
+dev-vcs/git
+kde-apps/konsole
+kde-plasma/plasma-meta
+media-sound/audacity
+net-irc/quassel
+net-misc/keychain
+net-p2p/deluge
