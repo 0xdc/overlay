@@ -21,9 +21,6 @@ sys-libs/tdb python
 # USB
 app-crypt/gnupg smartcard
 
-# Flowblade
-media-libs/mlt python
-
 # electron
 media-video/ffmpeg opus vpx
 
