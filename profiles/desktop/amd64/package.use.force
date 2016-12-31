@@ -30,3 +30,6 @@ media-video/ffmpeg theora
 
 # quassel
 net-irc/quassel monolithic -server webkit
+
+# obs-studio
+media-video/obs-studio v4l

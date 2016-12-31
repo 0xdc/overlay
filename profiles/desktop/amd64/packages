@@ -13,6 +13,7 @@ kde-apps/konsole
 kde-plasma/plasma-meta
 media-sound/asunder
 media-sound/audacity
+media-video/obs-studio
 net-irc/quassel
 net-misc/keychain
 net-p2p/deluge
