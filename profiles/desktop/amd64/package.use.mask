@@ -1,0 +1,5 @@
+# quassel
+net-irc/quassel server
+
+# digikam
+media-gfx/digikam panorama

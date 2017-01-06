@@ -29,10 +29,7 @@ media-gfx/blender colorio ffmpeg
 media-video/ffmpeg theora
 
 # quassel
-net-irc/quassel monolithic -server webkit
+net-irc/quassel monolithic webkit
 
 # obs-studio
 media-video/obs-studio v4l
-
-# digikam
-media-gfx/digikam -panorama
