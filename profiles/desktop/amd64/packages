@@ -11,6 +11,7 @@ dev-python/virtualenvwrapper
 dev-vcs/git
 kde-apps/konsole
 kde-plasma/plasma-meta
+media-gfx/digikam
 media-sound/asunder
 media-sound/audacity
 media-video/obs-studio
