@@ -20,3 +20,4 @@ net-misc/keychain
 net-p2p/deluge
 www-client/chromium
 www-client/firefox
+x11-base/xorg-server
