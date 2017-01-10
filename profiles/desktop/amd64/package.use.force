@@ -33,3 +33,6 @@ net-irc/quassel monolithic webkit
 
 # obs-studio
 media-video/obs-studio v4l
+
+# digikam
+media-gfx/digikam video
