@@ -36,3 +36,6 @@ media-video/obs-studio v4l
 
 # digikam
 media-gfx/digikam video
+
+# abiword
+app-office/abiword collab
