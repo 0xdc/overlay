@@ -1,0 +1,4 @@
+app-emulation/xen efi
+app-emulation/libvirt xen virt-network lvm
+app-emulation/qemu xen
+app-emulation/xen-tools pam hvm python screen qemu
