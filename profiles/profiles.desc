@@ -2,3 +2,4 @@ amd64	minimal		stable
 amd64	minimal/xen	stable
 amd64	desktop/amd64	stable
 arm	arm		stable
+arm	arm/desktop	stable
