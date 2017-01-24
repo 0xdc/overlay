@@ -39,3 +39,6 @@ media-gfx/digikam video
 
 # abiword
 app-office/abiword collab
+
+# git
+dev-vcs/git tk
