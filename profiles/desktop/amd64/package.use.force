@@ -1,5 +1,3 @@
-sys-apps/systemd curl importd gcrypt gnuefi lzma nat
-
 # firefox, et al
 dev-lang/python sqlite
 
