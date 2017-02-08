@@ -2,7 +2,7 @@ EAPI=6
 
 DESCRIPTION="Collection of mysql tools"
 HOMEPAGE="http://docs.dbsake.net/en/latest/ https://github.com/abg/dbsake"
-if test "${PV}" = "9999"; then
+if [[ "${PV}" = "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/abg/dbsake"
 	inherit git-r3
 else
