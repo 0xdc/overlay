@@ -2,11 +2,16 @@ EAPI=6
 
 DESCRIPTION="Collection of mysql tools"
 HOMEPAGE="http://docs.dbsake.net/en/latest/ https://github.com/abg/dbsake"
-SRC_URI="https://github.com/abg/dbsake/archive/${PV}.tar.gz"
+if test "${PV}" = "9999"; then
+	EGIT_REPO_URI="https://github.com/abg/dbsake"
+	inherit git-r3
+else
+	SRC_URI="https://github.com/abg/dbsake/archive/${PV}.tar.gz"
+	KEYWORDS="~x86 ~arm ~amd64"
+fi
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~arm ~amd64"
 
 RDEPEND="
 	dev-python/click
