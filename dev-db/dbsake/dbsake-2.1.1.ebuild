@@ -7,7 +7,7 @@ if [[ "${PV}" = "9999" ]]; then
 	inherit git-r3
 else
 	SRC_URI="https://github.com/abg/dbsake/archive/${PV}.tar.gz"
-	KEYWORDS="~x86 ~arm ~amd64"
+	KEYWORDS=""
 fi
 
 LICENSE="GPL-2"
