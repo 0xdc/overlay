@@ -13,6 +13,8 @@ fi
 
 SLOT=0
 LICENSE="MIT"
+HOMEPAGE="https://github.com/StackExchange/blackbox/"
+DESCRIPTION="Safely store secrets in Git/Mercurial/Subversion"
 
 src_compile() {
 	# Override default as we do not need to run make
