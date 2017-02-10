@@ -6,7 +6,7 @@ if [[ "${PV}" = "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/abg/dbsake"
 	inherit git-r3
 else
-	SRC_URI="https://github.com/abg/dbsake/archive/${PV}.tar.gz"
+	SRC_URI="https://github.com/abg/dbsake/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS=""
 fi
 
