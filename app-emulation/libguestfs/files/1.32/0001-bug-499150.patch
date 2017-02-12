@@ -1,0 +1,11 @@
+diff --git a/configure.ac b/configure.ac
+--- a/configure.ac
++++ b/configure.ac
+@@ -29,6 +29,7 @@ dnl the website 'index.html' file.
+ AC_SUBST([RELEASE_DATE], [2016-10-27])
+
+ AC_CONFIG_AUX_DIR([build-aux])
++AM_GNU_GETTEXT_VERSION(0.18.3)
+ AC_REQUIRE_AUX_FILE([guestfs-test-driver])
+
+ dnl Initialize automake.
