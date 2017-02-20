@@ -7,6 +7,7 @@ app-text/texlive
 dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
+dev-vcs/git-flow
 kde-apps/konsole
 kde-misc/rsibreak
 kde-plasma/plasma-meta
