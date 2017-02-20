@@ -1,8 +1,8 @@
 app-admin/sudo
 app-misc/tmux
+app-office/abiword
 app-portage/eix
 app-portage/flaggie
-app-office/abiword
 dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
