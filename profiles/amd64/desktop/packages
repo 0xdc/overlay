@@ -3,6 +3,7 @@ app-misc/tmux
 app-office/abiword
 app-portage/eix
 app-portage/flaggie
+app-text/texlive
 dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
