@@ -15,6 +15,7 @@ SLOT="0"
 
 RDEPEND="
 	dev-python/click
+	dev-python/jinja
 	dev-python/wheel
 "
 
