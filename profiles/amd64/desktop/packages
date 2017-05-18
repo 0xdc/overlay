@@ -1,4 +1,6 @@
+app-admin/pass
 app-admin/sudo
+app-editors/atom
 app-misc/tmux
 app-office/abiword
 app-portage/eix
@@ -9,6 +11,7 @@ dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
 dev-vcs/git-flow
+kde-apps/dolphin
 kde-apps/konsole
 kde-misc/rsibreak
 kde-plasma/plasma-meta
