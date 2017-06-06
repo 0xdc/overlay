@@ -22,6 +22,7 @@ media-video/obs-studio
 net-irc/quassel
 net-misc/keychain
 net-p2p/deluge
+sys-apps/kexec-tools
 www-client/chromium
 www-client/firefox
 x11-base/xorg-server
