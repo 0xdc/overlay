@@ -7,6 +7,4 @@ dev-python/virtualenvwrapper
 dev-vcs/git
 kde-apps/konsole
 kde-plasma/plasma-meta
-media-sound/audacity
 net-irc/quassel
-net-p2p/deluge
