@@ -1,1 +1,2 @@
+net-analyzer/munin cgi
 www-servers/nginx -rtmp
