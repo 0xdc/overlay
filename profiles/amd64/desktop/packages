@@ -20,7 +20,6 @@ media-sound/asunder
 media-sound/audacity
 media-video/obs-studio
 net-irc/quassel
-net-misc/keychain
 net-p2p/deluge
 sys-apps/kexec-tools
 www-client/chromium
