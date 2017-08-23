@@ -1,1 +1,2 @@
 CONFIG_PROTECT="/usr/lib/modules-load.d/xen.conf"
+QEMU_SOFTMMU_TARGETS="x86_64"
