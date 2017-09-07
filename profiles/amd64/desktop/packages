@@ -16,5 +16,6 @@ media-sound/asunder
 media-sound/audacity
 media-video/obs-studio
 net-irc/quassel
+net-misc/httpie
 net-p2p/deluge
 sys-apps/kexec-tools
