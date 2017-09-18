@@ -1,6 +1,21 @@
 # overlay
 Overlay for Gentoo Linux
 
+# Contents
+
+Profiles:
+* amd64
+  * (barebones/server)
+  * desktop
+  * xen (host)
+* arm
+  * desktop
+    * chromebook
+
+Packages:
+* app-crypt/blackbox
+* dev-db/dbsake
+
 # Quickstart
 In a root shell:
 ```bash
