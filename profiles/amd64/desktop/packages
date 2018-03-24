@@ -8,14 +8,9 @@ dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
 dev-vcs/git-flow
-kde-apps/dolphin
-kde-apps/konsole
-kde-misc/rsibreak
-kde-plasma/plasma-meta
 media-sound/asunder
 media-sound/audacity
 media-video/obs-studio
-net-irc/quassel
 net-misc/httpie
 net-p2p/deluge
 sys-apps/kexec-tools
