@@ -24,4 +24,9 @@ RDEPEND="
 
 PYTHON_COMPAT=( python3_{4,5,6} )
 
-inherit distutils-r1
+inherit distutils-r1 eutils
+
+src_prepare() {
+	default;
+	epatch "${FILESDIR}/remove-pyqt5-requirement.patch"
+}
