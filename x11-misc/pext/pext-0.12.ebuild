@@ -17,9 +17,9 @@ LICENSE="GPL-3"
 SLOT="0"
 
 RDEPEND="
-		dev-python/PyQt5
-		dev-python/dulwich
-		dev-python/pip
+		dev-python/PyQt5[${PYTHON_USEDEP}]
+		dev-python/dulwich[${PYTHON_USEDEP}]
+		dev-python/pip[${PYTHON_USEDEP}]
 		dev-qt/qtquickcontrols
 "
 
