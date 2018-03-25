@@ -19,6 +19,7 @@ SLOT="0"
 RDEPEND="
 		dev-python/PyQt5
 		dev-python/dulwich
+		dev-python/pip
 		dev-qt/qtquickcontrols
 "
 
