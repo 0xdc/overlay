@@ -16,6 +16,6 @@ S="${WORKDIR}/Pext-${PV}"
 LICENSE="GPL-3"
 SLOT="0"
 
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
+PYTHON_COMPAT=( python3_{4,5,6} )
 
 inherit distutils-r1
