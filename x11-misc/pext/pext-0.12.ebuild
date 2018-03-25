@@ -19,6 +19,7 @@ SLOT="0"
 RDEPEND="
 		dev-python/PyQt5
 		dev-python/dulwich
+		dev-qt/qtquickcontrols
 "
 
 PYTHON_COMPAT=( python3_{4,5,6} )
