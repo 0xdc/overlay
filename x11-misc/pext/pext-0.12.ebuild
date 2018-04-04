@@ -16,16 +16,16 @@ S="${WORKDIR}/Pext-${PV}"
 LICENSE="GPL-3"
 SLOT="0"
 
+PYTHON_COMPAT=( python3_{4,5,6} )
+
+inherit distutils-r1 eutils
+
 RDEPEND="
 		dev-python/PyQt5[${PYTHON_USEDEP}]
 		dev-python/dulwich[${PYTHON_USEDEP}]
 		dev-python/pip[${PYTHON_USEDEP}]
 		dev-qt/qtquickcontrols
 "
-
-PYTHON_COMPAT=( python3_{4,5,6} )
-
-inherit distutils-r1 eutils
 
 src_prepare() {
 	default;
