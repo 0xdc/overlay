@@ -8,10 +8,10 @@ if [[ "${PV}" = "9999" ]]; then
 else
 	SRC_URI="https://github.com/Pext/Pext/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~x86"
+	# Because Pext is capitalised, set S
+	S="${WORKDIR}/Pext-${PV}"
 fi
 
-# Because Pext is capitalised, set S
-S="${WORKDIR}/Pext-${PV}"
 
 LICENSE="GPL-3"
 SLOT="0"
