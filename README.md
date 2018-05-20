@@ -15,6 +15,7 @@ Profiles:
 Packages:
 * app-crypt/blackbox
 * dev-db/dbsake
+* x11-misc/pext
 
 # Quickstart
 In a root shell:
