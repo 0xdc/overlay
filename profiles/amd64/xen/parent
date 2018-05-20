@@ -1,2 +1,4 @@
-..
+gentoo:default/linux/amd64/17.0/systemd
+0xdc:features/base
+0xdc:features/systemd
 0xdc:features/xen
