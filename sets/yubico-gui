@@ -1,0 +1,3 @@
+@yubico
+app-crypt/yubikey-manager-qt
+sys-auth/yubikey-personalization-gui
