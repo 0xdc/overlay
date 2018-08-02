@@ -2,6 +2,7 @@ caps
 cjk
 networkmanager
 pulseaudio
+samba
 unicode
 vim-syntax
 xattr
