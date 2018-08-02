@@ -10,6 +10,7 @@ dev-vcs/git
 dev-vcs/git-flow
 kde-apps/dolphin
 kde-apps/konsole
+kde-misc/kio-gdrive
 kde-misc/rsibreak
 kde-plasma/plasma-meta
 media-sound/asunder
