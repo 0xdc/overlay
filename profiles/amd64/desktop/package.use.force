@@ -17,7 +17,7 @@ sys-libs/ntdb python
 sys-libs/tdb python
 
 # USB
-app-crypt/gnupg smartcard
+app-crypt/gnupg smartcard usb
 
 # electron
 media-video/ffmpeg opus vpx
