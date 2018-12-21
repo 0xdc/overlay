@@ -1,4 +1,4 @@
 gentoo:default/linux/amd64/17.0/desktop/plasma/systemd
-gentoo:hardened/linux/amd64
+gentoo:default/linux/amd64/17.0/hardened
 0xdc:features/systemd
 0xdc:features/base
