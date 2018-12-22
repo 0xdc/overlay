@@ -4,3 +4,4 @@ dev-libs/opensc
 sys-auth/pam_yubico
 sys-auth/ykneo-ccid-tools
 sys-auth/ykpers
+sys-auth/yubico-piv-tool
