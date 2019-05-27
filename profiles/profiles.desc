@@ -1,6 +1,7 @@
 amd64	amd64			stable
 amd64	amd64/xen		stable
 amd64	amd64/desktop		stable
+amd64	amd64/router		exp
 arm	arm			stable
 arm	arm/desktop		stable
 arm	arm/desktop/chromebook	stable
