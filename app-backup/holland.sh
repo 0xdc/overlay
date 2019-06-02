@@ -26,7 +26,7 @@ for lib in $LIBS; do
 	tee -a "$ebuild" <<-'EOF'
 	HOMEPAGE="http://www.hollandbackup.org"
 	MY_P="holland-${PV}"
-	SRC_URI="http://hollandbackup.org/releases/stable/${PV%.*}/${MY_P}.tar.gz"
+	SRC_URI="https://github.com/holland-backup/holland/archive/v${PV}.tar.gz -> ${MY_P}.tar.gz"
 	LICENSE="GPL-2"
 	SLOT="0"
 	KEYWORDS="~amd64 ~x86"
@@ -71,7 +71,7 @@ for plugin in $PLUGINS; do
 	"
 	HOMEPAGE="http://www.hollandbackup.org/"
 	MY_P="holland-${PV}"
-	SRC_URI="http://hollandbackup.org/releases/stable/${PV%.*}/${MY_P}.tar.gz"
+	SRC_URI="https://github.com/holland-backup/holland/archive/v${PV}.tar.gz -> ${MY_P}.tar.gz"
 	LICENSE="GPL-2"
 	SLOT="0"
 	KEYWORDS="~amd64 ~x86"
@@ -149,7 +149,7 @@ EOF
 tee -a "$ebuild" <<'EOF'
 DESCRIPTION="Holland Backup"
 HOMEPAGE="http://www.hollandbackup.org/"
-SRC_URI="http://hollandbackup.org/releases/stable/${PV%.*}/${P}.tar.gz"
+SRC_URI="https://github.com/holland-backup/holland/archive/v${PV}.tar.gz -> holland-${PV}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
