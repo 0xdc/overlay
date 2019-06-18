@@ -15,6 +15,7 @@ Profiles:
 Packages:
 * app-crypt/blackbox
 * dev-db/dbsake
+* media-tv/plex-media-server
 * x11-misc/pext
 
 # Quickstart

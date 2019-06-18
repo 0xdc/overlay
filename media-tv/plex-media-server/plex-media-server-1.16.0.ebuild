@@ -82,10 +82,6 @@ src_install() {
 	chown "${_USERNAME}":"${_USERNAME}" "${ED}/${DEFAULT_LIBRARY_DIR}" || die
 	keepdir "${DEFAULT_LIBRARY_DIR}"
 
-	# Install the OpenRC init/conf files
-	doinitd "${FILESDIR}/init.d/${PN}"
-	doconfd "${FILESDIR}/conf.d/${PN}"
-
 	# Disabling due to Bug 644694
 	#_handle_multilib
 
