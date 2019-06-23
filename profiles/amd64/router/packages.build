@@ -1,0 +1,9 @@
+dev-vcs/git
+net-analyzer/nmap
+net-analyzer/tcpdump
+net-analyzer/traceroute
+net-dialup/ppp
+net-dialup/rp-pppoe
+net-dns/dnsmasq
+net-firewall/iptables
+www-servers/nginx
