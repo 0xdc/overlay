@@ -2,5 +2,5 @@ QEMU_SOFTMMU_TARGETS=""
 
 EMERGE_DEFAULT_OPTS="$EMERGE_DEFAULT_OPTS --quiet-build"
 
-PORT_LOGDIR="/var/log/portage"
+PORT_LOGDIR="/var/log/portage/builds"
 FEATURES="$FEATURES fail-clean"
