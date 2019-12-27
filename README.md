@@ -14,6 +14,7 @@ Profiles:
 
 Packages:
 * app-crypt/blackbox
+* app-crypt/tpm2-tss (version bump)
 * dev-db/dbsake
 * media-tv/plex-media-server
 * x11-misc/pext
