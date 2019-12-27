@@ -22,9 +22,8 @@ Packages:
 # Quickstart
 In a root shell:
 ```bash
-emerge dev-vcs/git
-mkdir /etc/portage/repos.conf/
-wget -O/etc/portage/repos.conf/0xdc.conf https://github.com/0xdc/overlay/raw/master/metadata/repos.conf
+emerge -u dev-vcs/git eselect-repository
+eselect repository add 0xdc git https://github.com/0xdc/overlay
 emaint sync -r 0xdc
 eselect profile list
 ```
