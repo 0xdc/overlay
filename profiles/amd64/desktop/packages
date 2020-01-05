@@ -3,7 +3,6 @@ app-misc/tmux
 app-portage/eix
 app-portage/flaggie
 app-text/texlive
-dev-db/mysql-workbench
 dev-lang/go
 dev-python/virtualenvwrapper
 dev-vcs/git
@@ -19,5 +18,4 @@ media-video/obs-studio
 net-irc/quassel
 net-libs/nodejs
 net-misc/httpie
-net-p2p/deluge
 sys-apps/kexec-tools
