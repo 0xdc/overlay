@@ -14,6 +14,8 @@ Profiles:
 
 Packages:
 * app-crypt/blackbox
+* app-crypt/tpm2-tss (version bump)
+* app-crypt/tpm2-totp (version bump)
 * dev-db/dbsake
 * media-tv/plex-media-server
 * x11-misc/pext
@@ -21,9 +23,8 @@ Packages:
 # Quickstart
 In a root shell:
 ```bash
-emerge dev-vcs/git
-mkdir /etc/portage/repos.conf/
-wget -O/etc/portage/repos.conf/0xdc.conf https://github.com/0xdc/overlay/raw/master/metadata/repos.conf
+emerge -u dev-vcs/git eselect-repository
+eselect repository add 0xdc git https://github.com/0xdc/overlay
 emaint sync -r 0xdc
 eselect profile list
 ```
