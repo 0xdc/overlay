@@ -18,6 +18,6 @@ RDEPEND="
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
 	app-arch/lbzip2
 	app-crypt/shash
-	kernel_linux? ( app-misc/zisofs-tools >=sys-fs/squashfs-tools-2.1 )
+	>=sys-fs/squashfs-tools-2.1
 	!kernel_FreeBSD? ( || ( app-arch/tar[xattr] app-arch/libarchive[xattr] ) )
 "
