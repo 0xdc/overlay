@@ -16,6 +16,7 @@ inherit python-r1
 RDEPEND="
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
+	>=dev-python/toml-0.10.0-r1[${PYTHON_USEDEP}]
 	app-arch/lbzip2
 	>=sys-fs/squashfs-tools-2.1[xz]
 	!kernel_FreeBSD? ( || ( app-arch/tar[xattr] app-arch/libarchive[xattr] ) )
