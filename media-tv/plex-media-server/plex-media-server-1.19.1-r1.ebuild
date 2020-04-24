@@ -6,7 +6,7 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit eutils systemd unpacker pax-utils python-single-r1
 
-MINOR_VERSION="2527-740d4c206"
+MINOR_VERSION="2701-6327e27bf"
 
 _APPNAME="plexmediaserver"
 _USERNAME="plex"
@@ -53,9 +53,7 @@ BINS_TO_PAX_MARK=(
 
 S="${WORKDIR}"
 PATCHES=(
-	"${FILESDIR}/virtualenv_start_pms_2019.patch"
 	"${FILESDIR}/plexmediamanager.desktop.new.patch"
-	"${FILESDIR}/add_gentoo_profile_as_platform_version.patch"
 )
 
 src_unpack() {
@@ -64,10 +62,6 @@ src_unpack() {
 
 src_install() {
 	# Move the config to the correct place
-	local config_vanilla="/etc/default/plexmediaserver"
-	local config_path="/etc/${_SHORTNAME}"
-	sed -e "s#${config_vanilla}#${config_path}/${_APPNAME}#g" -i "${S}"/usr/sbin/start_pms || die
-
 	# Remove Debian specific files
 	rm -r "usr/share/doc" || die
 
@@ -98,7 +92,7 @@ src_install() {
 	patchelf --force-rpath --set-rpath '$ORIGIN:$ORIGIN/../../../../../../lib' "${ED}"/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/lib-dynload/_codecs_kr.so || die
 
 	# Install systemd service file
-	systemd_newunit "${FILESDIR}/systemd/${PN}.service" "${PN}.service"
+	systemd_newunit "usr/lib/${_APPNAME}/lib/${_APPNAME}.service" "${PN}.service"
 
 	# Add pax markings to some binaries so that they work on hardened setup
 	for f in "${BINS_TO_PAX_MARK[@]}"; do
