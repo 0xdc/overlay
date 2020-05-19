@@ -1,4 +1,4 @@
-gentoo:default/linux/amd64/17.0/systemd
-gentoo:default/linux/amd64/17.0/hardened
+gentoo:default/linux/amd64/17.1/systemd
+gentoo:default/linux/amd64/17.1/hardened
 0xdc:features/base
 0xdc:features/systemd
