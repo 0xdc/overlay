@@ -14,6 +14,7 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 inherit linux-info python-r1
 
 RDEPEND="
+	app-arch/pixz
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
 	>=dev-python/toml-0.10.0-r1[${PYTHON_USEDEP}]
