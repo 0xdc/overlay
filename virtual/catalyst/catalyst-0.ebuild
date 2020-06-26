@@ -14,18 +14,16 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 inherit linux-info python-r1
 
 RDEPEND="
+	amd64? ( sys-boot/grub[grub_platforms_efi-32,grub_platforms_efi-64] )
 	app-arch/pixz
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
 	>=dev-python/toml-0.10.0-r1[${PYTHON_USEDEP}]
 	!kernel_FreeBSD? ( || ( app-arch/tar[xattr] app-arch/libarchive[xattr] ) )
+	sys-fs/squashfs-tools[lzo]
 "
 
 pkg_pretend() {
 	local CONFIG_CHECK="~SQUASHFS_LZO"
 	check_extra_config
-}
-
-pkg_postinst() {
-	elog "Install  sys-fs/squashfs-tools[lzo]  to be able to manipulate downloaded snapshots."
 }
