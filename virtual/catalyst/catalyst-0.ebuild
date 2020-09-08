@@ -18,7 +18,7 @@ RDEPEND="
 		app-cdr/cdrtools
 		dev-libs/libisoburn
 		sys-boot/grub[grub_platforms_efi-32,grub_platforms_efi-64]
-		sys-fs/dosfstools
+		sys-fs/mtools
 	)
 	app-arch/lbzip2
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
