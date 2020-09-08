@@ -16,11 +16,11 @@ inherit linux-info python-r1
 RDEPEND="
 	amd64? (
 		app-cdr/cdrtools
+		dev-libs/libisoburn
 		sys-boot/grub[grub_platforms_efi-32,grub_platforms_efi-64]
 		sys-fs/dosfstools
 	)
 	app-arch/lbzip2
-	app-arch/pixz
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
 	>=dev-python/toml-0.10.0-r1[${PYTHON_USEDEP}]
