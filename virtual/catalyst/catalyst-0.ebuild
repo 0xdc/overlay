@@ -17,7 +17,7 @@ RDEPEND="
 	amd64? (
 		app-cdr/cdrtools
 		dev-libs/libisoburn
-		sys-boot/grub[grub_platforms_efi-32,grub_platforms_efi-64]
+		sys-boot/grub[grub_platforms_pc,grub_platforms_efi-64]
 		sys-fs/mtools
 	)
 	app-arch/lbzip2
