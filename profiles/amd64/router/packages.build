@@ -6,4 +6,5 @@ net-dialup/ppp
 net-dialup/rp-pppoe
 net-dns/dnsmasq
 net-firewall/nftables
+sys-apps/shadow
 www-servers/nginx
