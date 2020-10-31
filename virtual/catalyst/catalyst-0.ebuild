@@ -31,6 +31,6 @@ RDEPEND="
 "
 
 pkg_pretend() {
-	local CONFIG_CHECK="~SQUASHFS_XZ"
+	local CONFIG_CHECK="~SQUASHFS_LZO ~SQUASHFS_XZ"
 	check_extra_config
 }
