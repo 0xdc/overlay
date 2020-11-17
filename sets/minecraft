@@ -1,3 +1,4 @@
 dev-qt/qtconcurrent
+dev-util/cmake
 virtual/jdk
 x11-apps/xrandr
