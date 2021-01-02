@@ -25,6 +25,7 @@ RDEPEND="
 	>=dev-ml/camomile-0.8.3:=
 	>=dev-ml/ocaml-fileutils-0.4.0:=
 	sys-devel/gettext
+	dev-ml/stdlib-shims:=
 	dev-ml/ocaml-gettext:=
 "
 DEPEND="
