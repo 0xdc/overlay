@@ -16,7 +16,6 @@ Packages:
 * app-crypt/blackbox
 * dev-db/dbsake
 * dev-ml/ocaml-gettext-stub
-* media-tv/plex-media-server
 * x11-misc/pext
 
 # Quickstart
