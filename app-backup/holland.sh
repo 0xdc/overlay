@@ -6,6 +6,7 @@ COPYRIGHT_YEAR="$(date +%Y)"
 PN=holland
 LIBS=" common lvm mysql "
 PLUGINS=" example mariabackup mongodump mysql_lvm mysqldump pgdump random sqlite tar xtrabackup "
+PYTHON="python2_7 python3_{3,4,5,6,7,8,9}"
 
 for lib in $LIBS; do
 	dir="${PN}-lib-${lib}"
@@ -17,7 +18,7 @@ for lib in $LIBS; do
 	# Distributed under the terms of the GNU General Public License v2
 
 	EAPI=6
-	PYTHON_COMPAT=( python2_7 python3_{3,4,5,6} )
+	PYTHON_COMPAT=( ${PYTHON} )
 
 	inherit distutils-r1
 
@@ -51,7 +52,7 @@ for plugin in $PLUGINS; do
 	# Distributed under the terms of the GNU General Public License v2
 
 	EAPI=6
-	PYTHON_COMPAT=( python2_7 python3_{3,4,5,6} )
+	PYTHON_COMPAT=( ${PYTHON} )
 
 	inherit distutils-r1
 
@@ -106,8 +107,13 @@ tee -a "$ebuild" <<'EOF'
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python2_7 )
+EOF
 
+tee -a "$ebuild" <<EOF
+PYTHON_COMPAT=( ${PYTHON} )
+EOF
+
+tee -a "$ebuild" <<'EOF'
 inherit python-r1
 
 DESCRIPTION="Holland MySQL"
@@ -141,7 +147,7 @@ tee "$ebuild" <<EOF
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python2_7 python3_{3,4,5,6} )
+PYTHON_COMPAT=( ${PYTHON} )
 
 inherit distutils-r1
 
