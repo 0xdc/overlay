@@ -163,7 +163,6 @@ IUSE="doc examples +mysql postgres sqlite"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 "
 RDEPEND="
 	mysql? ( ~app-backup/holland-backup-mysql-meta-${PV}[${PYTHON_USEDEP}] )
@@ -175,13 +174,7 @@ RDEPEND="
 	)
 "
 
-python_compile_all() {
-	use doc && emake -C docs html
-}
-
 python_install_all() {
-	use doc && local HTML_DOCS=( docs/build/html/. )
-
 	distutils-r1_python_install_all
 
 	keepdir /var/log/holland
@@ -193,8 +186,6 @@ python_install_all() {
 
 	insinto /etc/holland/backupsets
 	doins config/backupsets/default.conf
-
-	doman docs/man/holland.1
 }
 EOF
 ebuild $ebuild manifest
