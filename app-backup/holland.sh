@@ -66,7 +66,13 @@ for plugin in $PLUGINS; do
 		~app-backup/holland-lib-common-${PV}[${PYTHON_USEDEP}]
 		dev-python/iniparse[${PYTHON_USEDEP}]
 	EOF
-	test "$plugin" = "*mysql*" && tee -a "$ebuild" <<<'                ~app-backup/holland-lib-common-${PV}[${PYTHON_USEDEP}]'
+	case "$plugin" in
+	*mysql*)
+		tee -a "$ebuild" <<-'EOF'
+			~app-backup/holland-lib-mysql-${PV}[${PYTHON_USEDEP}]
+		EOF
+		;;
+	esac
 	
 	tee -a "$ebuild" <<-'EOF'
 	"
