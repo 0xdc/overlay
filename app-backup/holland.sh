@@ -17,7 +17,7 @@ for lib in $LIBS; do
 	# Copyright 1999-${COPYRIGHT_YEAR} Gentoo Foundation
 	# Distributed under the terms of the GNU General Public License v2
 
-	EAPI=6
+	EAPI=7
 	PYTHON_COMPAT=( ${PYTHON} )
 
 	inherit distutils-r1
@@ -51,7 +51,7 @@ for plugin in $PLUGINS; do
 	# Copyright 1999-${COPYRIGHT_YEAR} Gentoo Foundation
 	# Distributed under the terms of the GNU General Public License v2
 
-	EAPI=6
+	EAPI=7
 	PYTHON_COMPAT=( ${PYTHON} )
 
 	inherit distutils-r1
@@ -112,7 +112,7 @@ EOF
 tee -a "$ebuild" <<'EOF'
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 EOF
 
 tee -a "$ebuild" <<EOF
@@ -153,7 +153,7 @@ tee "$ebuild" <<EOF
 # Copyright 1999-${COPYRIGHT_YEAR} Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 PYTHON_COMPAT=( ${PYTHON} )
 
 inherit distutils-r1
