@@ -162,6 +162,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc examples +mysql postgres sqlite"
 
 DEPEND="
+	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 "
 RDEPEND="
