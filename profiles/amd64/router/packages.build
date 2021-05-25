@@ -4,7 +4,9 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dialup/ppp
 net-dialup/rp-pppoe
+net-dialup/xl2tpd
 net-dns/dnsmasq
 net-firewall/nftables
 sys-apps/shadow
+sys-boot/grub
 www-servers/nginx
