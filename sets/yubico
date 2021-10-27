@@ -2,5 +2,4 @@ app-crypt/ccid
 app-crypt/yubikey-manager
 dev-libs/opensc
 sys-auth/pam_yubico
-sys-auth/ykneo-ccid-tools
 sys-auth/yubico-piv-tool
