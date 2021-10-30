@@ -7,6 +7,7 @@ net-dialup/rp-pppoe
 net-dialup/xl2tpd
 net-dns/dnsmasq
 net-firewall/nftables
+sys-apps/sed
 sys-apps/shadow
 sys-boot/grub
 www-servers/nginx
