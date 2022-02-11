@@ -1,5 +1,4 @@
 dev-vcs/git
-net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dialup/ppp

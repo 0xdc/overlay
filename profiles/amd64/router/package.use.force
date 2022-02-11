@@ -1,1 +1,2 @@
+net-dns/dnsmasq dhcp
 sys-apps/systemd kmod
