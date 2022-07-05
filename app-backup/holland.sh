@@ -6,7 +6,7 @@ COPYRIGHT_YEAR="$(date +%Y)"
 PN=holland
 LIBS=" common lvm mysql "
 PLUGINS=" example mariabackup mongodump mysql_lvm mysqldump pgdump random sqlite tar xtrabackup "
-PYTHON="python2_7 python3_{3,4,5,6,7,8,9}"
+PYTHON="python2_7 python3_{3,4,5,6,7,8,9,10,11}"
 
 for lib in $LIBS; do
 	dir="${PN}-lib-${lib}"

@@ -10,7 +10,7 @@ LICENSE="MIT"
 SLOT="3"
 KEYWORDS="amd64 ~x86 arm ~arm64"
 
-PYTHON_COMPAT=( python3_{8,9} )
+PYTHON_COMPAT=( python3_{8,9,10,11} )
 inherit linux-info python-r1
 
 RDEPEND="
