@@ -26,7 +26,10 @@ RDEPEND="
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
 	>=dev-python/toml-0.10.0-r1[${PYTHON_USEDEP}]
-	!kernel_FreeBSD? ( || ( app-arch/tar[xattr] app-arch/libarchive[xattr] ) )
+	|| (
+		app-arch/tar[xattr]
+		app-arch/libarchive[xattr]
+	)
 	sys-apps/util-linux[python,${PYTHON_USEDEP}]
 	|| (
 		<=sys-fs/squashfs-tools-4.4[xz]
