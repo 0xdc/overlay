@@ -16,7 +16,7 @@ fi
 LICENSE="GPL-3"
 SLOT="0"
 
-PYTHON_COMPAT=( python3_{7,8,9} )
+PYTHON_COMPAT=( python3_{7,8,9,10,11} )
 
 PATCHES=( "${FILESDIR}/9999-20210325.patch" )
 inherit distutils-r1 eutils
