@@ -1,9 +1,2 @@
 app-misc/tmux
-app-portage/eix
-app-portage/flaggie
-dev-lang/go
-dev-python/virtualenvwrapper
 dev-vcs/git
-kde-apps/konsole
-kde-plasma/plasma-meta
-net-irc/quassel
