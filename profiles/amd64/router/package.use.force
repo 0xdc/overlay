@@ -1,2 +1,3 @@
 net-dns/dnsmasq dhcp
-sys-apps/systemd kmod
+net-misc/curl curl_ssl_openssl
+sys-apps/systemd curl importd lzma kmod openssl
