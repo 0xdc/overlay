@@ -19,6 +19,7 @@ RDEPEND="
 		dev-libs/libisoburn
 		sys-boot/grub[grub_platforms_pc,grub_platforms_efi-64]
 		sys-fs/mtools
+		app-emulation/qemu[static-user,qemu_user_targets_arm]
 	)
 	app-arch/lbzip2
 	app-arch/pixz
@@ -37,7 +38,24 @@ RDEPEND="
 	)
 "
 
+S="${WORKDIR}"
+
 pkg_pretend() {
 	local CONFIG_CHECK="~SQUASHFS_LZO ~SQUASHFS_XZ"
 	check_extra_config
+}
+
+src_compile() {
+	if use amd64; then
+		$(tc-getCC) ${CFLAGS} ${LDFLAGS} -static -O3 -o ${WORKDIR}/qemu-wrapper ${FILESDIR}/qemu-wrapper.c
+	fi
+}
+
+src_install() {
+	if use amd64; then
+		dobin ${WORKDIR}/qemu-wrapper
+
+		insinto /etc/binfmt.d
+		doins ${FILESDIR}/qemu-arm-wrapper.conf
+	fi
 }
