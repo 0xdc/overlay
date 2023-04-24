@@ -1,2 +1,5 @@
+app-alternatives/bzip2 reference
+app-alternatives/gzip reference
+app-alternatives/tar gnu
 net-analyzer/munin cgi
 www-servers/nginx -rtmp
