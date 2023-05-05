@@ -1,6 +1,8 @@
+app-admin/sysstat
 dev-vcs/git
 net-analyzer/tcpdump
 net-analyzer/traceroute
+net-analyzer/vnstat
 net-dialup/ppp
 net-dialup/rp-pppoe
 net-dialup/xl2tpd
