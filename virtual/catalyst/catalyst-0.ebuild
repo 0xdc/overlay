@@ -40,7 +40,7 @@ RDEPEND="
 S="${WORKDIR}"
 
 pkg_pretend() {
-	local CONFIG_CHECK="~SQUASHFS_LZO ~SQUASHFS_XZ"
+	local CONFIG_CHECK="~SQUASHFS_LZO"
 	check_extra_config
 }
 
