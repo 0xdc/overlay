@@ -2,6 +2,7 @@ app-alternatives/awk gawk
 app-alternatives/bzip2 lbzip2
 app-alternatives/gzip pigz
 app-alternatives/lex flex
+app-alternatives/yacc bison
 net-dns/dnsmasq dhcp
 net-misc/curl curl_ssl_openssl
 sys-apps/systemd curl importd lzma kmod openssl
