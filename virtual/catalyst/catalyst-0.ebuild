@@ -17,6 +17,7 @@ RDEPEND="
 	amd64? (
 		app-cdr/cdrtools
 		dev-libs/libisoburn
+		dev-tcltk/expect
 		sys-boot/grub[grub_platforms_pc,grub_platforms_efi-64]
 		sys-fs/mtools
 		app-emulation/qemu[static-user,qemu_user_targets_arm]
@@ -26,6 +27,7 @@ RDEPEND="
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
+	dev-vcs/git
 	|| (
 		app-arch/tar[xattr]
 		app-arch/libarchive[xattr]
