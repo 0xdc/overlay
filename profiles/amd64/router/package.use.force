@@ -7,3 +7,4 @@ app-alternatives/yacc bison
 net-dns/dnsmasq dhcp
 net-misc/curl openssl curl_ssl_openssl
 sys-apps/systemd curl importd lzma kmod openssl
+sys-apps/util-linux -su
