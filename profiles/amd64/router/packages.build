@@ -1,4 +1,6 @@
 app-admin/sysstat
+app-crypt/gnupg
+app-editors/vim
 dev-vcs/git
 net-analyzer/tcpdump
 net-analyzer/traceroute
@@ -7,6 +9,7 @@ net-dialup/ppp
 net-dialup/rp-pppoe
 net-dialup/xl2tpd
 net-dns/dnsmasq
+net-dns/unbound
 net-firewall/nftables
 net-misc/openssh
 sys-apps/ethtool
