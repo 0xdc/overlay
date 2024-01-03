@@ -2,5 +2,4 @@ gentoo:arch/amd64
 gentoo:arch/amd64/no-multilib
 gentoo:base
 gentoo:targets/systemd
-gentoo:default/linux
 gentoo:features/merged-usr
