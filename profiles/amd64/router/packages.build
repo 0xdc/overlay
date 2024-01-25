@@ -1,4 +1,5 @@
 app-admin/sysstat
+app-arch/unzip
 app-crypt/gnupg
 app-editors/vim
 dev-vcs/git
@@ -13,6 +14,8 @@ net-dns/unbound
 net-firewall/nftables
 net-misc/openssh
 sys-apps/ethtool
+sys-apps/grep
+sys-apps/kmod
 sys-apps/sed
 sys-apps/shadow
 sys-boot/grub
