@@ -5,6 +5,6 @@ app-alternatives/lex flex
 app-alternatives/tar libarchive
 app-alternatives/yacc bison
 net-dns/dnsmasq dhcp
-net-misc/curl openssl curl_ssl_openssl
+net-misc/curl openssl curl_ssl_openssl progress-meter
 sys-apps/systemd curl importd lzma kmod openssl
 sys-apps/util-linux -su
