@@ -27,6 +27,7 @@ RDEPEND="
 	>=dev-python/snakeoil-0.6.5[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	>=dev-python/pydecomp-0.3[${PYTHON_USEDEP}]
+	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-vcs/git
 	|| (
 		app-arch/tar[xattr]
