@@ -9,7 +9,7 @@ DESCRIPTION="Control app for Blackmagic ATEM video switchers"
 HOMEPAGE="https://openswitcher.org/"
 SRC_URI="https://git.sr.ht/~martijnbraam/pyatem/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
@@ -24,7 +24,6 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	>=dev-build/meson-0.50.0
 	dev-build/meson-format-array
-
 "
 
 S="${WORKDIR}/pyatem-${PV}"

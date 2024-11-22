@@ -10,7 +10,7 @@ DESCRIPTION="Control library for Blackmagic ATEM video switchers"
 HOMEPAGE="https://openswitcher.org/"
 SRC_URI="https://git.sr.ht/~martijnbraam/pyatem/archive/${PV}.tar.gz -> openswitcher-${PV}.tar.gz"
 
-LICENSE="LGPL-3.0"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
