@@ -42,3 +42,11 @@ src_configure() {
         )
         meson_src_configure
 }
+
+pkg_postinst() {
+	gnome2_schemas_update
+}
+
+pkg_postrm() {
+	gnome2_schemas_update
+}
