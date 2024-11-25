@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit meson
+inherit meson gnome2-utils
 
 DESCRIPTION="Control app for Blackmagic ATEM video switchers"
 HOMEPAGE="https://openswitcher.org/"
@@ -22,8 +22,14 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 BDEPEND="
-	>=dev-build/meson-0.50.0
-	dev-build/meson-format-array
+	|| (
+		>=dev-build/meson-0.50.0
+		>=dev-util/meson-0.50.0
+	)
+	|| (
+		dev-build/meson-format-array
+		dev-util/meson-format-array
+	)
 "
 
 S="${WORKDIR}/pyatem-${PV}"
