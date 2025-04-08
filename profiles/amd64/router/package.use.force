@@ -8,3 +8,4 @@ net-dns/dnsmasq dhcp
 net-misc/curl openssl curl_ssl_openssl progress-meter
 sys-apps/systemd curl importd lzma kmod openssl
 sys-apps/util-linux -su
+www-servers/nginx rtmp nginx_modules_http_javascript nginx_modules_stream_access nginx_modules_stream_limit_conn nginx_modules_stream_ssl_preread
