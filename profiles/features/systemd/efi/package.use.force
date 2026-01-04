@@ -1,3 +1,2 @@
 sys-apps/systemd boot
 sys-kernel/installkernel dracut uki
-sys-kernel/linux-firmware savedconfig
