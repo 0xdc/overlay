@@ -1,0 +1,4 @@
+sys-firmware/intel-microcode
+sys-firmware/sof-firmware
+sys-kernel/linux-firmware
+x11-drivers/xf86-video-intel
