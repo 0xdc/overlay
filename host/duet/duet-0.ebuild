@@ -18,4 +18,7 @@ src_install() {
 
     insinto /etc/kernel/config.d
     doins ${FILESDIR}/duet.config
+
+    insinto /etc
+    doins ${FILESDIR}/dracut.conf
 }
