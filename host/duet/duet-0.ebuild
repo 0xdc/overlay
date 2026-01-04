@@ -6,6 +6,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 ~x86"
 
+BDEPEND="sys-kernel/installkernel"
 PDEPEND="
     >=sys-kernel/gentoo-kernel-6.2
     sys-kernel/linux-firmware[savedconfig]
