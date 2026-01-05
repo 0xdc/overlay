@@ -1,1 +1,1 @@
-sys-apps/systemd curl importd gcrypt lzma nat policykit
+sys-apps/systemd curl importd lzma
