@@ -11,18 +11,19 @@ PDEPEND="
     >=sys-kernel/gentoo-kernel-6.2
     sys-kernel/linux-firmware[savedconfig]
 "
-S="${WORKDIR}"
+
+S="${FILESDIR}"
 
 src_install() {
     insinto /etc/portage/savedconfig/sys-kernel
-    doins ${FILESDIR}/linux-firmware
+    doins linux-firmware
 
     insinto /etc/kernel/config.d
-    doins ${FILESDIR}/duet.config
+    doins duet.config
 
     insinto /etc
-    doins ${FILESDIR}/dracut.conf
+    doins dracut.conf
 
     insinto /etc/portage/patches/gentoo-kernel
-    doins ${FILESDIR}/10IGL5-LTE_screen_quirk.patch
+    doins 10IGL5-LTE_screen_quirk.patch
 }
