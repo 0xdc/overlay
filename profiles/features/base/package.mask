@@ -1,0 +1,2 @@
+# Usage deprecated in favour of net-firewall/nftables
+net-firewall/iptables
