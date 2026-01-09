@@ -4,7 +4,7 @@ DESCRIPTION="Host-specific files for the Lenovo IdeaPad Duet 3i (10IGL5-LTE)"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 
 inherit linux-info
 

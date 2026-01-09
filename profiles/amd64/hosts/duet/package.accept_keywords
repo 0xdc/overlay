@@ -1,2 +1,3 @@
+=host/duet-0 ~amd64
 =net-libs/libqmi-9999 **
 =net-misc/modemmanager-1.25.95 ~amd64
