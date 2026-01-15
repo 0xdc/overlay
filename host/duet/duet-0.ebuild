@@ -39,6 +39,6 @@ src_install() {
     insinto /etc
     doins dracut.conf
 
-    insinto /etc/portage/patches/gentoo-kernel
+    insinto /etc/portage/patches/sys-kernel/gentoo-kernel
     doins 10IGL5-LTE_screen_quirk.patch
 }
