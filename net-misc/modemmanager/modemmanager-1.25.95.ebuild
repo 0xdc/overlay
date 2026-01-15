@@ -100,7 +100,7 @@ src_configure() {
 
 src_install() {
 	meson_src_install
-	newinitd "${FILESDIR}/modemmanager.initd" modemmanager
+# 	newinitd "${FILESDIR}/modemmanager.initd" modemmanager
 	newbashcomp cli/mmcli-completion mmcli
 }
 
