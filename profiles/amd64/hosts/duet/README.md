@@ -26,7 +26,7 @@ The Lenovo IdeaPad Duet 3i (10IGL5) was a 10.3" detachable tablet from Lenovo. U
 make.conf
 ---------
 ```sh
-COMMON_FLAGS="-O2 -pipe -march=x86-64-v2 -mtune=goldmont-plus"
+COMMON_FLAGS="-O2 -pipe -march=x86-64-v2 -mtune=goldmont-plus --param=l1-cache-line-size=64 --param=l1-cache-size=24 --param=l2-cache-size=4096"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"
