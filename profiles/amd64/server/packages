@@ -1,0 +1,4 @@
+app-admin/ansible
+dev-vcs/git
+net-firewall/nftables
+www-server/nginx
