@@ -1,0 +1,14 @@
+-app-editors/vim
+-sys-process/htop
+host/duet
+kde-apps/kate
+kde-apps/konqueror
+kde-apps/konsole
+kde-plasma/plasma-desktop
+kde-plasma/plasma-nm
+kde-plasma/powerdevil
+kde-plasma/systemsettings
+sys-firmware/intel-microcode
+sys-firmware/sof-firmware
+x11-drivers/xf86-video-intel
+x11-misc/sddm

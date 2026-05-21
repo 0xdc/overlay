@@ -3,6 +3,7 @@ amd64	amd64/xen		experimental
 amd64	amd64/desktop		experimental
 amd64	amd64/minimal		experimental
 amd64	amd64/router		experimental
+amd64	amd64/hosts/duet	stable
 arm	arm			experimental
 arm	arm/desktop		experimental
 arm	arm/desktop/chromebook	experimental

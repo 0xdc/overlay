@@ -1,2 +1,2 @@
 sys-apps/systemd boot
-sys-apps/installkernel dracut uki
+sys-kernel/installkernel dracut uki
