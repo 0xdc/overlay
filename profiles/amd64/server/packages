@@ -2,4 +2,4 @@ app-admin/ansible
 dev-vcs/git
 net-firewall/nftables
 net-misc/mosh
-www-server/nginx
+www-servers/nginx
