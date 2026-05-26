@@ -1,0 +1,4 @@
+gentoo:default/linux/amd64/23.0/systemd
+gentoo:features/hardened
+0xdc:features/base
+0xdc:features/systemd/efi

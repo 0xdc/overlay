@@ -1,0 +1,2 @@
+ACCEPT_LICENSE="@FREE @BINARY-REDISTRIBUTABLE"
+FEATURES="buildpkg binpkg-multi-instance"
